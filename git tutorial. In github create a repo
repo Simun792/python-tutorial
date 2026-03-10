@@ -1,0 +1,18 @@
+1. In github create a repo
+2. clone the repo in local system with the command 
+    - git clone https_git_url.git
+3. Add the files in the folder
+4. Stage the files 
+    Stage single file Command: git add 05_dictionary\dic.py
+    Stage all files command: git add .
+5. commit with a message
+    - git commit -m "python tutorial files added"
+6. push the code
+    git push origin branch_name[main]
+
+7. Pull code from github
+    git pull origin main
+
+8. check current git branch
+    git branch
+9. 

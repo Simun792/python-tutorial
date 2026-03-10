@@ -1,5 +1,5 @@
 """
-This is the example of dictionary in python
+This is the example of dictionary in python.
 """
 marks = {
     "Simun": 99,
