@@ -1,0 +1,12 @@
+main/master
+qa
+dev
+sprint1, sprint2, ...
+feature/branch
+
+
+feature/boilerplate_code -> sprint1 -> dev -> qa -> main
+
+
+5 member
+dev[f1, f2, f3 f4, f5]
