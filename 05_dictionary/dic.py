@@ -1,3 +1,6 @@
+"""
+This is the example of dictionary in python
+"""
 marks = {
     "Simun": 99,
     "Subham": 96,
@@ -6,7 +9,5 @@ marks = {
 
 #print(marks, type(marks))
 print(marks["Simun"])
-
-
 
 
