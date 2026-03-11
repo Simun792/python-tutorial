@@ -99,4 +99,79 @@ print("Mul: " , mul)'''
 # print("b =", b)
 
 #11. Create a list of 5 numbers and print it.
+# 2. Add a new element to the list.
+# 3. Remove an element from the list.
 
+# print(a)
+# for i in a:
+#     print(i)
+
+# a.append(98)
+# print(a)
+
+# a.remove(12)
+# print(a)
+
+# Print the largest number in a list.
+
+# a = [12, 34, 56, 65, 45]
+
+# largest = a[0]
+
+# for i in a:
+#     if i > largest:
+#         largest = i
+
+# print("Largest number:", largest)
+
+#15. Print the sum of all elements in a list.
+
+# a = int(input("Enter a number: "))
+# b = int(input("Enter a number: "))
+# c = int(input("Enter a number: "))
+# d = int(input("Enter a number: "))
+# e = int(input("Enter a number: "))
+
+# numbers = [a, b, c, d, e]
+
+# print("Sum = ", sum(numbers))
+
+# a = [12, 34, 56, 65, 45]
+
+# print(sum(a))
+
+# 16.Reverse a list.
+
+# a = [12, 34, 56, 65, 45]
+
+# a.reverse
+# print(a)
+
+# Find the index of an element in a list.
+
+# a = [12, 34, 56, 65, 45]
+
+# print(a.index(56))
+
+# Sort a list in ascending order.
+
+# a = [98, 88, 79, 86, 65, 97, 93, 99]
+
+# a.sort()
+# print(a)
+
+# #19. Count how many times an element appears in a list.
+
+# a = [45, 48, 35, 25, 36, 46, 25, 36, 35, 48, 49, 45]
+
+# print(a.count(48))
+
+#20. Merge two lists.
+
+# a = [45, 38, 48, 32]
+
+# b = [96, 92, 93, 95, 86, 65]
+
+# sorted_merge = sorted (a + b)
+
+# print(sorted_merge)
