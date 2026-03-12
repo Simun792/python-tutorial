@@ -1,5 +1,5 @@
-'''1. Write a Python program to store your name, age, and height and print them.
-name = input("Enter your name: ")
+# 1. Write a Python program to store your name, age, and height and print them.
+'''name = input("Enter your name: ")
 age = int(input("Enter your age: "))
 height = float(input("Enter your hright: "))
 
@@ -30,184 +30,184 @@ print("Mul: " , mul)'''
 
 # Convert a string "100" to integer and add 50 to it.
 
-# from unittest import result
+'''from unittest import result
 
 
-# a = "100"
-# # num = int(a)
-# # result = num + 50
-
-# # print(result)
-
-# print(int(a) + 50)
-
-#5. Write a program to check whether a number is greater than 100 (boolean result).
-
-# a = (99 > 100)
-# print(a)
-
-# num = int(input("Enter a number: "))
-# result = num > 100
+a = "100"
+# num = int(a)
+# result = num + 50
 
 # print(result)
 
+print(int(a) + 50)'''
+
+#5. Write a program to check whether a number is greater than 100 (boolean result).
+
+'''a = (99 > 100)
+print(a)
+
+num = int(input("Enter a number: "))
+result = num > 100
+
+print(result)'''
+
 #6. Write a program to concatenate two strings.
 
-# a = str(input("Enter your first_name: "))
-# b = str(input("Enter your last_name: "))
+'''a = str(input("Enter your first_name: "))
+b = str(input("Enter your last_name: "))
 
-# print(a + " " + b)
+print(a + " " + b)'''
 
 #7. Write a program to find the length of a string.
 
-# a = ("Simun Gouda")
+'''a = ("Simun Gouda")
 
-# print(len(a))
+print(len(a))
 
-# a = input("Enter a string: ")
+a = input("Enter a string: ")
 
-# print("Lenth of the string is:", len(a))
+print("Lenth of the string is:", len(a))'''
 
 #8. Convert a float number to integer.
 
-# a = 5.0
+'''a = 5.0
 
-# print(int(a))
+print(int(a))
 
-# a = float(input("Enter a float number: "))
+a = float(input("Enter a float number: "))
 
-# print(int(a))
+print(int(a))'''
 
 #9. Write a program to check if a number is even or odd.
 
-# a = int(input("Enter a number: "))
+'''a = int(input("Enter a number: "))
 
-# if a % 2 == 0:
-#     print("Even number")
-# else:
-#     print("Odd number")
+if a % 2 == 0:
+    print("Even number")
+else:
+    print("Odd number")
 
-# a = int(input("Enter first number: "))
-# b = int(input("Enter second number: "))
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
 
-# temp = a
-# a = b 
-# b = temp
+temp = a
+a = b 
+b = temp
 
-# print("After swapping: ")
-# print("a =", a)
-# print("b =", b)
+print("After swapping: ")
+print("a =", a)
+print("b =", b)'''
 
 #11. Create a list of 5 numbers and print it.
 # 2. Add a new element to the list.
 # 3. Remove an element from the list.
 
-# print(a)
-# for i in a:
-#     print(i)
+'''print(a)
+for i in a:
+    print(i)
 
-# a.append(98)
-# print(a)
+a.append(98)
+print(a)
 
-# a.remove(12)
-# print(a)
+a.remove(12)
+print(a)'''
 
 # Print the largest number in a list.
 
-# a = [12, 34, 56, 65, 45]
+'''a = [12, 34, 56, 65, 45]
 
-# largest = a[0]
+largest = a[0]
 
-# for i in a:
-#     if i > largest:
-#         largest = i
+for i in a:
+    if i > largest:
+        largest = i
 
-# print("Largest number:", largest)
+print("Largest number:", largest)'''
 
 #15. Print the sum of all elements in a list.
 
-# a = int(input("Enter a number: "))
-# b = int(input("Enter a number: "))
-# c = int(input("Enter a number: "))
-# d = int(input("Enter a number: "))
-# e = int(input("Enter a number: "))
+'''a = int(input("Enter a number: "))
+b = int(input("Enter a number: "))
+c = int(input("Enter a number: "))
+d = int(input("Enter a number: "))
+e = int(input("Enter a number: "))
 
-# numbers = [a, b, c, d, e]
+numbers = [a, b, c, d, e]
 
-# print("Sum = ", sum(numbers))
+print("Sum = ", sum(numbers))
 
-# a = [12, 34, 56, 65, 45]
+a = [12, 34, 56, 65, 45]
 
-# print(sum(a))
+print(sum(a))'''
 
 # 16.Reverse a list.
 
-# a = [12, 34, 56, 65, 45]
+'''a = [12, 34, 56, 65, 45]
 
-# a.reverse
-# print(a)
+a.reverse
+print(a)'''
 
 # Find the index of an element in a list.
 
-# a = [12, 34, 56, 65, 45]
+'''a = [12, 34, 56, 65, 45]
 
-# print(a.index(56))
+print(a.index(56))
 
-# Sort a list in ascending order.
+Sort a list in ascending order.
 
-# a = [98, 88, 79, 86, 65, 97, 93, 99]
+a = [98, 88, 79, 86, 65, 97, 93, 99]
 
-# a.sort()
-# print(a)
+a.sort()
+print(a)'''
 
 # #19. Count how many times an element appears in a list.
 
-# a = [45, 48, 35, 25, 36, 46, 25, 36, 35, 48, 49, 45]
+'''a = [45, 48, 35, 25, 36, 46, 25, 36, 35, 48, 49, 45]
 
-# print(a.count(48))
+print(a.count(48))'''
 
 #20. Merge two lists.
 
-# a = [45, 38, 48, 32]
+'''a = [45, 38, 48, 32]
 
-# b = [96, 92, 93, 95, 86, 65]
+b = [96, 92, 93, 95, 86, 65]
 
-# sorted_merge = sorted (a + b)
+sorted_merge = sorted (a + b)
 
-# print(sorted_merge)
+print(sorted_merge)'''
 
 #21. Create a tuple with 5 elements.
 # Access the third element of a tuple.
 
-# a = (12, 34, 65, 67, 89, "Simun", "Rakesh")
+'''a = (12, 34, 65, 67, 89, "Simun", "Rakesh")
 
-# last_element = a[-1]
+last_element = a[-1]
 
-# print(last_element)
+print(last_element)'''
 
 #23. Count occurrences of an element in a tuple.
 
-# a = (12, 34, 65, 67, 89, 65, "Simun", "Rakesh")
+'''a = (12, 34, 65, 67, 89, 65, "Simun", "Rakesh")
 
-# print(a.count(65))
+print(a.count(65))'''
 
 # #24 Find the length of a tuple.
 
-# a = (12, 34, 65, 67, 89, 65, "Simun", "Rakesh")
+'''a = (12, 34, 65, 67, 89, 65, "Simun", "Rakesh")
 
-# print(len(a))
+print(len(a))'''
 
 # # 25. Convert a **tuple into a list**.
 
-# a = (12, 34, 65, 67, 89, 65, "Simun", "Rakesh")
+'''a = (12, 34, 65, 67, 89, 65, "Simun", "Rakesh")
 
-# print(list(a))
+print(list(a))'''
 
 # 26.Create a dictionary with name, age, city.
 
-# a = {"name": "Simun", "age": 20, "city": "Golanda"}
+'''a = {"name": "Simun", "age": 20, "city": "Golanda"}
 
-# print(a)
+print(a)'''
 
 # # 27. Add a new key-value pair to the dictionary.
 
@@ -604,34 +604,34 @@ print("Mul: " , mul)'''
 
 # Write a function to find largest number in a list.
 
-# def find_largest(numbers):
-#     largest = numbers[0]
+'''def find_largest(numbers):
+    largest = numbers[0]
 
-#     for num in numbers:
-#         if num > largest:
-#             largest = num
+    for num in numbers:
+        if num > largest:
+            largest = num
 
-#     return largest
+    return largest
 
-# nums = [12, 45, 7, 89, 34]
-# print("Largest number is: ", find_largest(nums))
+nums = [12, 45, 7, 89, 34]
+print("Largest number is: ", find_largest(nums))'''
 
-# # Write a function to count vowels in a string.
+# Write a function to count vowels in a string.
 
-# def count_vowels(text):
-#     vowels = "aeiouAEIOU"
-#     count = 0
+'''def count_vowels(text):
+    vowels = "aeiouAEIOU"
+    count = 0
 
-#     for char in text:
-#         if char in vowels:
-#             count += 1
+    for char in text:
+        if char in vowels:
+            count += 1
 
-#     return count
+    return count
 
-# word = input("Enter a string: ")
-# print("Number of vowels:", count_vowels(word))
+word = input("Enter a string: ")
+print("Number of vowels:", count_vowels(word))
 
-# better verison
+# better verison'''
 
 '''def count_vowels(text):
     return sum(1 for char in text if char.lower() in "aeiou")
@@ -657,3 +657,88 @@ print("Squre is:", squre(num))'''
 
 word = input("Enter a string:")
 print(check_Palindrome(word))'''
+
+# Create a file and write "Hello Python".
+
+'''file = open("hello.txt", "r")
+content = file.read()
+print(content)
+file.close()'''
+
+'''with open("hello.txt", "w") as file:
+    file.write("Hello Simun")'''
+
+# Read the content of a file.
+
+'''with open("Hello.txt", "r") as file:
+    content = file.read()
+    print(content)'''
+
+# Append new text to an existing file.
+
+'''with open("hello.txt", "a") as file:
+    file.write("\nWelcome to Python")'''
+
+# Count number of lines in a file.
+
+'''with open("hello.txt", "r") as file:
+    lines = file.readlines()
+    print(len(lines))'''
+
+'''from sqlite3 import connect
+
+
+count = 0
+with open("hello.txt", "r") as file:
+    for line in file:
+        count += 1
+
+print(count)'''
+
+# Count number of words in a file.
+
+'''with open("hello.txt", "r") as file:
+    connect = file.read()
+    words = connect.split()
+    print(len(words))'''
+
+# Read a file and print only lines containing the word "Python".
+
+'''with open("hello.txt", "r") as file:
+    for line in file:
+        if "python" in line:
+            print(line)'''
+
+# Copy contents of one file to another.
+
+'''with open("source.txt", "r") as source:
+    with open("destination.txt", "w") as dest:
+        content = source.read()
+        dest.write(content)'''
+
+# Write a list of numbers into a file.
+
+'''numbers = [10, 20, 30, 40, 50]
+
+with open("numbers.txt", "w") as file:
+    for num in numbers:
+        file.write(str(num) + "\n")'''
+
+
+# Read numbers from a file and calculate sum.
+
+'''total = 0 
+
+with open("numbers.txt", "r") as file:
+    for line in file:
+        num = int(line)
+        total += num
+
+print("sum", total)'''
+
+# Create a program that stores student names in a file.
+
+'''with open("student.txt", "w") as file:
+    for i in range(3):
+        name = input("Enter student name: ")
+        file.write(name + "\n")'''
