@@ -407,7 +407,7 @@ fibanacci(7)'''
 
 # Write a function to check whether a number is palindrome.
 
-from operator import truediv
+'''from operator import truediv
 
 
 def is_palindrome(n):
@@ -429,7 +429,108 @@ num = int(input("Enter a number: "))
 if is_palindrome(num):
     print("Palindrome number")
 else:
-    print("Not a palindrome")
+    print("Not a palindrome")'''
+
+
+# Write a function to find the largest number in a list.
+
+'''def find_largest(numbers):
+    largest = numbers[0]
+
+    for num in numbers:
+        if num > largest:
+            largest = num
+
+    return largest
+
+nums = [34, 54, 67, 54, 75, 78, 98, 98]
+print("Largest number:", find_largest(nums))'''
+
+# Write a function to check whether a number is an Armstrong number.
+
+'''def is_armstrong(n):
+    digits = len(str(n))
+    temp = n
+    total = 0
+
+    while temp > 0:
+        digit = temp % 10 
+        total = total + digit ** digits
+        temp = temp // 10
+
+    if total == n:
+        return True
+    else:
+        return False 
+
+num = int(input("Enter a number: "))
+
+if is_armstrong(num):
+    print("Armstrong Number")
+else:
+    print("Not an Armstrong Number")'''
+
+# Write a function to find the sum of squares of first n numbers.
+
+'''from unittest import result
+
+
+def sum_of_squres(n):
+    total = 0
+    for i in range(1, n +1):
+        total = total + i**2
+    return total
+
+n = int(input("Enter a number: "))
+print("Sum of squres:", sum_of_squres(n))'''
+
+# Write a function to calculate the power of a number (xⁿ) without using **.
+
+'''from unittest import result
+
+
+def power(x, n):
+    result = 1
+    for i in range(n):
+        result = result * x
+    return result
+
+x = int(input("Enter base number: "))
+n = int(input("Enter power: "))
+
+print("Result:", power(x, n))'''
+
+# Write a function to check whether a number is a perfect number.
+
+'''def is_perfect(n):
+    total = 0
+
+    for i in range(1, n):
+        if n % i == 0:
+            total = total + 1
+
+    if total == n:
+        return True
+    else:
+        return False
+
+num = int(input("Enter a number: "))'''
+
+# Write a function to print multiplication table of a number.
+
+def multiplication_table(n):
+    for i in range(1, 11):
+        # print(f"{n} x {i} = {n*i}")
+        print(n, "x", i, "=", n * i)
+
+num = int(input("Enter a number: "))
+multiplication_table(num)
+
+# Write a function to check whether a number is a strong number.
+
+
+
+
 
 
 

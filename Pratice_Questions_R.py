@@ -5,7 +5,7 @@ height = float(input("Enter your hright: "))
 
 print("Name:", name)
 print("Age:", age)
-print("Height", height)'''
+print("Height:", height)'''
 
 #2. Write a program to add two integers entered by the user.
 
